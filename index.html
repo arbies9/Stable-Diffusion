@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniqueArt Generator</title>
+    <link rel="stylesheet" href="App.css">
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDdQ_LWplrJy72Aej5tNehq-Qop_zeZjKg5g&usqp=CAU" alt="ai-image">
+        </div>
+        <div class="menu">
+            <a href="#about">About Us</a> |
+            <a href="#contact">Contact</a> |
+            <button class="subscribe-button">Subscribe</button>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <div>
+            <h2>Welcome to UniqueArt Generator</h2>
+            <div class="description">
+                <h4>
+                  Unveil the Enchantment of Stable Diffusion Artistry. Dive into the UniqueArt Generator — the nexus of creativity and state-of-the-art technology.
+                  Ever dreamt of a method that reshapes your cherished artistic elements into spellbinding, singular masterpieces? Behold the allure of stable diffusion art!
+                </h4>
+            </div>
+        </div>
+        <div class="art-display"></div>
+    </div>
+
+    <form action="/submit" method="post" class="text-form">
+        <label for="text">Enter your text:</label>
+        <textarea id="text" name="text" required></textarea>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
